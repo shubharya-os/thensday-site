@@ -8,7 +8,7 @@ Thensday is published by ELAQ Limited ("we"). This policy explains what happens 
 ## The short version
 
 - There is no account. You never sign up or sign in.
-- There is no Thensday server. Everything you save stays on your iPhone.
+- There is no Thensday server. Everything you save stays on your iPhone, unless you turn on Ask's optional Apple Private Cloud Compute answers (below).
 - We don't use analytics, advertising or tracking tools of any kind.
 - We don't collect, see, sell or share your data, because we never receive it.
 
@@ -20,15 +20,19 @@ Your settings, such as the times your moments fire, are stored on your device to
 
 All reading of text and screenshots (including text recognition and on-device intelligence on supported iPhones) happens on your iPhone. Nothing is uploaded for processing.
 
+Videos you share are read on your iPhone and then deleted; we never upload them. When you share or pick a video, Thensday reads its on-screen text and what is said in it (speech recognition runs on your iPhone only), keeps what it found, a small preview and up to four small stills, and deletes the video itself as soon as the read finishes, or after 24 hours if it could not run.
+
+Voice notes you record on your iPhone or Apple Watch, or say to Siri, are turned into text on your iPhone. A recording from your watch travels only to your own paired iPhone, over Apple's connection between the two, and is never uploaded. Thensday keeps a recording, so you can play it back, until you mark that save Done or let it go; turn off Settings › "Keep voice recordings" and it is deleted as soon as its text exists.
+
 If you delete the app, everything it stored is deleted with it. Your device backups (iCloud or computer) may include the app's data, under Apple's terms and your own backup settings.
 
 ## When the app goes online
 
-Thensday connects to the internet for one thing only: when you share a link, the app opens that page the way a browser would, to get the title, caption and preview image, and, if the page publicly serves a video and you have "Read videos from links on this iPhone" turned on (it is on by default; switch it off in Settings), that video, so Thensday can read it. This request goes straight from your iPhone to that website. It is not routed through us and we never see it. As with visiting any website, that site can see the usual request information, such as your IP address.
+Thensday connects to the internet only for links you share: the app asks that website (or its public preview service) for the page title, description and preview image, so your save looks right, and reads the page's public video as described below. This request goes straight from your iPhone to that website. It is not routed through us and we never see it. As with visiting any website, that site can see the usual request information, such as your IP address.
 
-Videos are read only on your iPhone (on-screen text, speech and pictures) and then deleted as soon as the read finishes, or within 24 hours if it can't run. Thensday keeps only a small preview image and the text it understood. It never uploads, stores or re-shares the video, never signs in to any service for you, and always links back to the original.
+Links you share are opened on your iPhone the way a browser would. If the page publicly serves a video, Thensday reads it on your iPhone and deletes it when the read finishes; for YouTube it reads the public captions instead. The page is opened without cookies, a login or any account details, and only once. Nothing is uploaded, re-hosted or redistributed, and the save always links back to the original. You can turn this off in Settings › "Read videos from links on this iPhone".
 
-If you turn on "Bigger answers with Apple Private Cloud Compute" in Ask Thensday, the text needed for an answer is sent to Apple's Private Cloud Compute, which Apple designed so that no one, including Apple and us, can access it. It is off by default.
+Ask Thensday answers on your iPhone. Only if you turn on Settings › "Bigger answers with Apple Private Cloud Compute", and only when a question needs more of your saves than fit on the iPhone, that question and the matching saves' titles and short excerpts are sent to Apple's Private Cloud Compute to be answered. Apple's Private Cloud Compute does not keep or let anyone see what is sent, and it never comes to us. It is off by default.
 
 ## Permissions
 
@@ -37,7 +41,9 @@ Thensday asks only when you use a feature that needs it:
 - **Notifications**, when you first pick a when, so we can remind you at that moment.
 - **Reminders**, only when you export a list to Reminders.
 - **Calendar and Contacts** use Apple's own editors, which don't need access to your existing events or contacts.
-- **Photos**: screenshot import uses Apple's photo picker, so the app only sees the images you choose.
+- **Photos**: screenshot import and "Add the video" use Apple's photo picker, so the app only sees the images and videos you choose.
+- **Speech recognition**, the first time a video you shared has sound or you record a voice note, so the app can understand what is said. It runs on your iPhone only.
+- **Microphone**, the first time you tap the mic to record a thought, on your iPhone or your Apple Watch.
 
 You can change any of these in the Settings app at any time.
 
