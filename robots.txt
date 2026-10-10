@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /p/
+Disallow: /tools/
+
+Sitemap: https://thensday.com/sitemap.xml

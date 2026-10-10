@@ -1,0 +1,514 @@
+<!doctype html>
+<!-- CONTACT_EMAIL = "hello@thensday.com" -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FBF6EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16110E" media="(prefers-color-scheme: dark)">
+<title>Thensday — Make your doomscroll count</title>
+<meta name="description" content="Share anything you scroll past. Thensday reads it — the whole reel — and brings it back at the moment you'll actually do it. On-device AI for iPhone. No account, no streaks.">
+<link rel="canonical" href="https://thensday.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Thensday">
+<meta property="og:url" content="https://thensday.com/">
+<meta property="og:title" content="Thensday — Make your doomscroll count">
+<meta property="og:description" content="Share anything you scroll past. Thensday reads the whole reel and brings it back at the moment you'll actually do it.">
+<meta property="og:image" content="https://thensday.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Thensday: Make your doomscroll count. A reel turns into a plan for Saturday morning.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Thensday — Make your doomscroll count">
+<meta name="twitter:description" content="Share anything you scroll past. Thensday reads the whole reel and brings it back at the moment you'll actually do it.">
+<meta name="twitter:image" content="https://thensday.com/og-image.png">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap">
+<link rel="stylesheet" href="/style.css?v=5">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-screen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M9 8h6M9 11.5h4"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10v4M8 6v12M12 9v6M16 4v16M20 10v4"/></symbol>
+  <symbol id="i-text" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 11h16M4 16h10"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.5S3 15 3 8.8A4.8 4.8 0 0 1 12 6.4a4.8 4.8 0 0 1 9 2.4C21 15 12 20.5 12 20.5z"/></symbol>
+  <symbol id="i-bubble" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c5 0 9 3.6 9 8s-4 8-9 8c-1 0-2-.1-2.9-.4L4 20.5l1.4-3.9C4 15.1 3 13.1 3 11c0-4.4 4-8 9-8z"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 3.2 2.8 10.3c-.8.3-.8 1.5.1 1.7l7.2 1.9 1.9 7.2c.2.9 1.4 1 1.7.1L21.5 3.2zM10.6 13.4 18 6l-6.3 8.5z"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6.5v13.5l6-2.5 6 2.5 6-2.5V4l-6 2.5L9 4zM9 4v13.5M15 6.5V20"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 17h16M7 17a5 5 0 0 1 10 0M12 5v3M5.6 9.6l1.8 1.4M18.4 9.6 16.6 11"/></symbol>
+  <symbol id="i-fork" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M16 3c-2 1-3 4-3 7h3v11"/></symbol>
+  <symbol id="i-euro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 6.5A6.5 6.5 0 1 0 17 17.5M4 10.5h9M4 13.5h9"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></symbol>
+  <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h10a4 4 0 0 0 .5-8 5.5 5.5 0 0 0-10.7 1.4A3.4 3.4 0 0 0 7 18zM4 4l16 16"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5c.5 4.6 2.9 7 7.5 7.5-4.6.5-7 2.9-7.5 7.5-.5-4.6-2.9-7-7.5-7.5 4.6-.5 7-2.9 7.5-7.5zM19 15.5c.2 1.8 1.2 2.8 3 3-1.8.2-2.8 1.2-3 3-.2-1.8-1.2-2.8-3-3 1.8-.2 2.8-1.2 3-3z"/></symbol>
+  <symbol id="i-apple" viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.5 2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-4zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4z"/></symbol>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="/" aria-label="Thensday home"><img src="/icon.svg" alt="" width="30" height="30"><span>Thensday</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-sm" href="mailto:hello@thensday.com?subject=Thensday%20beta">Join the beta</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="pill-badge"><span class="dot" aria-hidden="true"></span>Now in beta on TestFlight · iPhone</span>
+      <h1>Make your doomscroll <span class="serif">count.</span></h1>
+      <p class="lead"><strong>Share anything you scroll past.</strong> Thensday reads it — the whole reel — and brings it back at the moment you'll actually do it.</p>
+      <div class="cta-row">
+        <a class="btn" href="mailto:hello@thensday.com?subject=Thensday%20beta">Join the beta <span class="arrow" aria-hidden="true">→</span></a>
+        <span class="store-soon" role="note"><svg aria-hidden="true"><use href="#i-apple"/></svg><span>Coming soon<b>App Store</b></span></span>
+      </div>
+      <ul class="fine-list" aria-label="Highlights">
+        <li><svg aria-hidden="true"><use href="#i-lock"/></svg>Reads on your iPhone</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>No account</li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg>No streaks, no guilt</li>
+      </ul>
+    </div>
+
+    <div class="stage" role="img" aria-label="Animation: a reel about a Lisbon brunch spot is shared to Thensday. Thensday reads the video, writes a short summary, pulls out the place, a price and the opening time, asks two quick questions, and sets it for Saturday morning with Open in Maps.">
+      <div class="float-note n1" aria-hidden="true"><b>On screen at 0:04</b>“#1 Café Lume, Alfama”</div>
+      <div class="float-note n2" aria-hidden="true"><b>Heard at 0:12</b>“the nata is one eighty”</div>
+      <div class="phone" id="phone" aria-hidden="true">
+        <div class="screen">
+          <div class="island"></div>
+          <div class="status"><span>9:41</span><i><b></b></i></div>
+
+          <div class="reel">
+            <div class="sun"></div>
+            <div class="roofs">
+              <span style="left:0;width:8em;height:12em"><i style="left:2em;top:3em"></i><i style="left:4.6em;top:6.4em"></i></span>
+              <span style="left:7.4em;width:7em;height:16em;background:#4A1E1B"><i style="left:2.6em;top:4em"></i></span>
+              <span style="left:14em;width:9em;height:10em"><i style="left:1.6em;top:3em"></i><i style="left:5.2em;top:3em"></i></span>
+              <span style="left:22.4em;width:8em;height:14em;background:#4A1E1B"><i style="left:3em;top:5em"></i></span>
+              <span style="left:30em;width:6em;height:9em"></span>
+            </div>
+            <div class="street"></div>
+            <div class="shade"></div>
+            <p class="ost a"><span>3 brunch spots in Lisbon locals actually go to</span></p>
+            <p class="ost b"><span>#1 Café Lume, Alfama</span></p>
+            <div class="rail">
+              <div><svg><use href="#i-heart"/></svg>48k</div>
+              <div><svg><use href="#i-bubble"/></svg>612</div>
+              <div class="share-btn"><svg><use href="#i-send"/></svg>Share</div>
+            </div>
+            <div class="meta">
+              <div class="who"><i></i>lume.eats</div>
+              <p>get there before nine. save this for your Lisbon trip</p>
+            </div>
+            <div class="prog"><i id="prog"></i></div>
+          </div>
+
+          <div class="dim"></div>
+          <div class="sheet">
+            <div class="grab"></div>
+            <div class="link"><i></i><div><b>3 brunch spots in Lisbon</b><small>Reel · lume.eats</small></div></div>
+            <div class="apps">
+              <div class="a1"><span></span>Messages</div>
+              <div class="a2"><span></span>Mail</div>
+              <div class="th" id="thApp"><span></span>Thensday</div>
+              <div class="a3"><span></span>Notes</div>
+            </div>
+          </div>
+
+          <div class="tcard">
+            <div class="tc-head"><span class="x">Cancel</span><b>Thensday</b><span class="badge-read" id="readBadge">Read ✓</span></div>
+            <div class="tc-thumb">
+              <div class="reading" id="reading"><div>
+                <svg class="ring" viewBox="0 0 36 36"><circle class="bg" cx="18" cy="18" r="15.9"/><circle class="fg" id="ring" cx="18" cy="18" r="15.9" pathLength="100"/></svg>
+                <p id="readStep">Watching… 0%</p>
+              </div></div>
+            </div>
+            <p class="tc-title">Café Lume — slow brunch in Alfama</p>
+            <p class="tc-sum" id="sum"></p>
+            <div class="facts">
+              <span class="fact" data-f="0"><svg><use href="#i-pin"/></svg>Alfama, Lisbon <small>on screen</small></span>
+              <span class="fact" data-f="1"><svg><use href="#i-euro"/></svg>Nata €1.80 <small>heard</small></span>
+              <span class="fact" data-f="2"><svg><use href="#i-clock"/></svg>Before 9am <small>caption</small></span>
+            </div>
+            <div class="qs">
+              <div class="q" data-q="0"><p>Save all 3 spots, or just this one?</p><div class="chips"><span class="chip" id="c1">All 3</span><span class="chip">Just Café Lume</span></div></div>
+              <div class="q" data-q="1"><p>When will you go?</p><div class="chips"><span class="chip" id="c2">Saturday morning</span><span class="chip">Someday</span></div></div>
+            </div>
+            <div class="moment" id="moment">
+              <span class="mi"><svg><use href="#i-sun"/></svg></span>
+              <span><b>Saturday morning</b><small>Open in Maps</small></span>
+              <span class="go">3 spots</span>
+            </div>
+          </div>
+
+          <div class="saved-toast" id="toast"><i><svg><use href="#i-check"/></svg></i>Saved for Saturday</div>
+          <div class="tap" id="tap"></div>
+          <div class="home-ind"></div>
+        </div>
+      </div>
+      <div class="beats" aria-hidden="true"><span data-b="0" class="on">Share</span><span data-b="1">Read</span><span data-b="2">Ask</span><span data-b="3">Moment</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW ================= -->
+<section class="sec" id="how" style="padding-top:56px">
+  <div class="wrap">
+    <p class="kicker rv">How it works</p>
+    <h2 class="h2 rv">Three beats. <span class="serif em">Zero</span> homework.</h2>
+    <p class="lead rv">Saving takes one tap and asks for nothing. Everything else happens on its own, on your iPhone.</p>
+    <ol class="steps" style="list-style:none;padding:0">
+      <li class="step rv">
+        <span class="num">1</span>
+        <h3>Share</h3>
+        <p>From any app with a Share button: a reel, a post, a link, a screenshot. Pick a why and a when, or just tap Save.</p>
+        <div class="viz" aria-hidden="true"><div class="mini-chips"><span class="mc">Do</span><span class="mc">Buy</span><span class="mc on">Go</span><span class="mc">Cook</span><span class="mc">Reach out</span></div></div>
+      </li>
+      <li class="step rv d1">
+        <span class="num">2</span>
+        <h3>It reads everything</h3>
+        <p>Not just the link. The words on screen, what's said, the caption. Then it asks at most two quick questions.</p>
+        <div class="viz" aria-hidden="true"><div class="lanes">
+          <div class="lane"><b>On screen</b><i></i></div>
+          <div class="lane"><b>Speech</b><i style="width:70%;flex:none"></i></div>
+          <div class="lane"><b>Caption</b><i style="width:45%;flex:none"></i></div>
+        </div></div>
+      </li>
+      <li class="step rv d2">
+        <span class="num">3</span>
+        <h3>It brings it back at your moment</h3>
+        <p>Tonight, this weekend, next shop. One gentle tap, right then, with the next step ready: Maps, Calendar, a list.</p>
+        <div class="viz" aria-hidden="true"><div class="notif"><img src="/icon.svg" alt=""><div><b>This weekend</b><span>Café Lume and 2 more spots in Alfama</span></div></div></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="sec" id="features" style="padding-top:0">
+  <div class="wrap">
+
+    <!-- full read -->
+    <div class="feature">
+      <div class="f-copy rv">
+        <span class="tag">The full read</span>
+        <h3>It watches the <span class="serif">whole</span> reel.</h3>
+        <p>A saved link is a bookmark with a sticker. Thensday reads what's actually in the video: every frame's on-screen text, what's said out loud, and the caption. Then it tells you what's in it, in one line.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Places, dishes and ingredients, products and prices, people and their companies.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Every fact shows where it came from: “on screen at 0:04”, “heard at 0:12”.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>If it isn't in the video, it doesn't make it up.</span></li>
+        </ul>
+      </div>
+      <div class="f-viz rv d1" aria-label="Example: three sources from one reel combine into one understanding." role="img">
+        <div class="evidence" aria-hidden="true">
+          <div class="card ev"><span class="ic"><svg><use href="#i-screen"/></svg></span><div><small>On screen <em>0:04</em></small><p class="ocr">#1 CAFÉ LUME, ALFAMA</p></div></div>
+          <div class="card ev"><span class="ic"><svg><use href="#i-wave"/></svg></span><div><small>Speech <em>0:12</em></small><p>“Get there before nine — the nata is one eighty.”</p></div></div>
+          <div class="card ev"><span class="ic"><svg><use href="#i-text"/></svg></span><div><small>Caption</small><p>save this for your Lisbon trip</p></div></div>
+          <div class="merge"><svg><use href="#i-down"/></svg></div>
+          <div class="card understood">
+            <div class="lbl"><span>Thensday understood</span><span class="read-ok">Read ✓</span></div>
+            <h4>Café Lume — slow brunch in Alfama</h4>
+            <p>A tiny brunch spot in Alfama. Go before 9; the pastel de nata is €1.80.</p>
+            <div class="pills"><span class="pl">Alfama, Lisbon <small>· on screen</small></span><span class="pl">€1.80 <small>· heard</small></span><span class="pl">Go</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ask -->
+    <div class="feature flip">
+      <div class="f-copy rv">
+        <span class="tag">Ask Thensday</span>
+        <h3>“What was that café in <span class="serif">Alfama?</span>”</h3>
+        <p>Ask in plain words, across everything you ever saved. Answers point to the saves they came from, and can do the next thing for you.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>“Plan my Saturday from what I saved.”</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>“Make a grocery list from the pasta reels.”</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Runs on device with Apple Intelligence. On other iPhones, it's a fast smart search.</span></li>
+        </ul>
+      </div>
+      <div class="f-viz rv d1" role="img" aria-label="Example chat: asking what the café in Alfama was, and Thensday answering with the saved reel and actions.">
+        <div class="chat" aria-hidden="true">
+          <div class="bubble me">What was that café in Alfama?</div>
+          <div class="bubble ai">Café Lume. You saved it from a brunch reel on Tuesday. Go before 9; the nata is €1.80.
+            <div class="cite"><i></i><div><b>Café Lume — slow brunch in Alfama</b><span>Reel · saved Tuesday · This weekend</span></div></div>
+            <div class="acts"><span class="act">Open in Maps</span><span class="act">Plan my Saturday</span></div>
+          </div>
+          <div class="suggest"><span>Dinners I saved this week</span><span>That investor from Tuesday</span></div>
+          <div class="ask-bar"><span>Ask about anything you saved…</span><i><svg><use href="#i-up"/></svg></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- plans -->
+    <div class="feature">
+      <div class="f-copy rv">
+        <span class="tag">Plans</span>
+        <h3>Plans that <span class="serif">assemble</span> themselves.</h3>
+        <p>Save five Lisbon spots over three weeks and Thensday notices. Places in the same city become a trip. Recipes become dinners and one merged grocery list. People at the same company become one follow-up.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>One tap to make it a plan, with its own when.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Share it as a link. Friends see it in any browser. <a href="/p/#v1.XY1BCsJADEWvErIeRHfSnbitIOhOXKR2agfbjHRmKFoK4hm8hOAtvElPYrCC1tUPP-__36DHCGPjEstQa33QnKLCWsx1btyPZTDaNG96TtnzDnEoNXSXG7jC1pBUgXc5GIZZkVFJEjgJurdyHAcZ9SEU9KsCBAFEWGRJzusCUg1MnqC7Piaj6Rhb1U8vTEWpDZUFF9hp_z_z_UvDilgq4nA2NBzBdtu-AA">See an example</a>.</span></li>
+        </ul>
+      </div>
+      <div class="f-viz rv d1" role="img" aria-label="Example: a suggested plan, Lisbon, five places, and a dinners plan with three recipes and one grocery list.">
+        <div class="plans" aria-hidden="true">
+          <div class="card plan">
+            <div class="plan-h"><h4>Lisbon</h4><span>5 places · This weekend</span></div>
+            <ol>
+              <li><i><svg><use href="#i-fork"/></svg></i>Café Lume <em>Alfama</em></li>
+              <li><i><svg><use href="#i-sun"/></svg></i>Miradouro sunset <em>Santa Luzia</em></li>
+              <li><i><svg><use href="#i-pin"/></svg></i>Tile workshop <em>Graça</em></li>
+              <li><i><svg><use href="#i-pin"/></svg></i>Bookshop with a café <em>Chiado</em></li>
+              <li><i><svg><use href="#i-fork"/></svg></i>Grilled sardines <em>Bairro Alto</em></li>
+            </ol>
+            <div class="plan-f"><span class="btn">Make it a plan</span><span class="btn btn-ghost">Share</span></div>
+          </div>
+          <div class="card plan small">
+            <div class="stack"><i style="background:linear-gradient(135deg,#F2A65A,#C24F2A)"></i><i style="background:linear-gradient(135deg,#9DBB8E,#5C7F55)"></i><i style="background:linear-gradient(135deg,#E8C27A,#B9822E)"></i></div>
+            <div><b>Dinners this week</b><span>3 recipes · 1 grocery list</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- lock screen -->
+    <div class="feature flip">
+      <div class="f-copy rv">
+        <span class="tag">Your moment</span>
+        <h3>Right there on your <span class="serif">Lock Screen.</span></h3>
+        <p>When the moment you picked arrives, Thensday taps you once. Open it and that moment's saves stay on your Lock Screen as a Live Activity. At the shop, it's your grocery list, ticked off as you go.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>One notification per moment. Never a daily list.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Answer its questions right from the notification or the widget.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Someday never pings you. On purpose.</span></li>
+        </ul>
+      </div>
+      <div class="f-viz rv d1" role="img" aria-label="Example Lock Screen on Saturday at 10:00 showing a This weekend Live Activity with three saves, one ticked off, and a gentle notification.">
+        <div class="lock-wrap" aria-hidden="true">
+          <div class="lock">
+            <p class="date">Saturday 17 October</p>
+            <p class="time">10:00</p>
+            <div class="la">
+              <div class="la-h"><img src="/icon.svg" alt="">This weekend<span>Lisbon</span></div>
+              <ul>
+                <li class="done"><i><svg><use href="#i-check"/></svg></i><span>Café Lume</span><em>Alfama</em></li>
+                <li><i></i><span>Miradouro sunset</span><em>7:40pm</em></li>
+                <li><i></i><span>Tile workshop</span><em>Graça</em></li>
+              </ul>
+            </div>
+            <div class="lnotif"><img src="/icon.svg" alt=""><div><b>Thensday <em>now</em></b>This weekend: Café Lume and 2 more. Alfama is first.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- private -->
+    <div class="feature">
+      <div class="f-copy rv">
+        <span class="tag">Private by design</span>
+        <h3>The AI lives on your <span class="serif">iPhone.</span></h3>
+        <p>Thensday has no account and no server, so there's nowhere for your saves to go. The reading, the summaries and the answers all happen on the device. When you share a link, your iPhone opens it the way a browser would; any video is read there and then deleted.</p>
+        <div class="no-grid">
+          <div class="no"><b>No account</b><span>Nothing to sign up for.</span></div>
+          <div class="no"><b>No server</b><span>There is no Thensday cloud.</span></div>
+          <div class="no"><b>No analytics</b><span>No tracking, no ads.</span></div>
+          <div class="no"><b>Data Not Collected</b><span>The App Store label.</span></div>
+        </div>
+      </div>
+      <div class="f-viz rv d1" role="img" aria-label="Diagram: frames, speech, captions, the AI model and your saves all stay inside your iPhone. A Thensday server does not exist.">
+        <div class="vault" aria-hidden="true">
+          <div class="device"><b>Your iPhone</b>
+            <div class="inside">
+              <span><svg><use href="#i-screen"/></svg>Frames</span>
+              <span><svg><use href="#i-wave"/></svg>Speech</span>
+              <span><svg><use href="#i-text"/></svg>Captions</span>
+              <span><svg><use href="#i-spark"/></svg>On-device AI</span>
+              <span><svg><use href="#i-pin"/></svg>Places</span>
+              <span><svg><use href="#i-lock"/></svg>Your saves</span>
+            </div>
+          </div>
+          <div class="nowhere"><svg><use href="#i-cloud"/></svg><span><s>Thensday server</s> — doesn't exist. Nothing is uploaded.</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="sec" style="padding-top:24px" aria-labelledby="gal-h">
+  <div class="wrap">
+    <div class="center">
+      <p class="kicker rv">The real app</p>
+      <h2 class="h2 rv" id="gal-h">Calm by <span class="serif em">default.</span></h2>
+      <p class="lead rv">Warm cards grouped by moment, not a backlog. Screens from the current beta.</p>
+    </div>
+    <div class="gallery" role="region" tabindex="0" aria-label="App screenshots, scroll sideways">
+      <figure class="shot rv"><div class="frame"><picture><source srcset="/img/home-dark.webp" media="(prefers-color-scheme: dark)"><img src="/img/home-light.webp" width="600" height="1305" loading="lazy" decoding="async" alt="Thensday home screen: an Up next card for one-pan lemon chickpeas with Not yet and Done buttons, then a Tonight row of saved cards."></picture></div><figcaption><b>Home, by moment</b>Up next, Tonight, This weekend</figcaption></figure>
+      <figure class="shot rv d1"><div class="frame"><picture><source srcset="/img/share-dark.webp" media="(prefers-color-scheme: dark)"><img src="/img/share-light.webp" width="600" height="1305" loading="lazy" decoding="async" alt="The Thensday share card: extracted facts, why chips (Do, Buy, Go, Cook, Reach out) and when chips (Tonight, This weekend, Next shop, Someday), and a Save button."></picture></div><figcaption><b>One-tap save</b>Why and when are optional</figcaption></figure>
+      <figure class="shot rv d2"><div class="frame"><picture><source srcset="/img/detail-dark.webp" media="(prefers-color-scheme: dark)"><img src="/img/detail-light.webp" width="600" height="1305" loading="lazy" decoding="async" alt="A saved screenshot of an investor, with a first step, Send Priya a short note, and actions to save the contact and set a reminder."></picture></div><figcaption><b>A real next step</b>Contacts, Reminders, a draft</figcaption></figure>
+      <figure class="shot rv"><div class="frame"><picture><source srcset="/img/grocery-dark.webp" media="(prefers-color-scheme: dark)"><img src="/img/grocery-light.webp" width="600" height="1305" loading="lazy" decoding="async" alt="A merged grocery list grouped into Produce, Dairy and Eggs, Pantry and Spices."></picture></div><figcaption><b>One grocery list</b>From every recipe you saved</figcaption></figure>
+      <figure class="shot rv d1"><div class="frame"><picture><source srcset="/img/clearout-dark.webp" media="(prefers-color-scheme: dark)"><img src="/img/clearout-light.webp" width="600" height="1305" loading="lazy" decoding="async" alt="Sunday clear-out: one card at a time, with Done, Not yet, Let go and Skip. The header reads One at a time. No score, no rush."></picture></div><figcaption><b>Sunday clear-out</b>One at a time. No score.</figcaption></figure>
+    </div>
+    <p class="gallery-hint" aria-hidden="true">Swipe for more →</p>
+  </div>
+</section>
+
+<!-- ================= COMPARE ================= -->
+<section class="sec" style="padding-top:24px" aria-labelledby="cmp-h">
+  <div class="wrap">
+    <p class="kicker rv">The difference</p>
+    <h2 class="h2 rv" id="cmp-h">Your saved folder is where<br class="br-wide"> good ideas go to <span class="serif em">sleep.</span></h2>
+    <div class="compare rv">
+      <table>
+        <caption class="sr-only">Your camera roll or saved folder compared with Thensday</caption>
+        <thead><tr><th scope="col"><span class="sr-only">Question</span></th><th scope="col">Camera roll / saved folder</th><th scope="col" class="us"><img src="/icon.svg" alt="">Thensday</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">What it keeps</th><td class="them">A link or a picture</td><td class="us">What's in it: the place, the dish, the price, the person</td></tr>
+          <tr><th scope="row">A reel</th><td class="them">A thumbnail you'll squint at later</td><td class="us">Read in full: on-screen text, speech and caption</td></tr>
+          <tr><th scope="row">When you see it again</th><td class="them">When you happen to scroll back</td><td class="us">At the moment you picked</td></tr>
+          <tr><th scope="row">What you do next</th><td class="them">Search, copy, switch apps</td><td class="us">One tap: Maps, Calendar, Reminders, a draft</td></tr>
+          <tr><th scope="row">The old stuff</th><td class="them">Piles up forever</td><td class="us">Fades quietly after 30 days. Never deleted.</td></tr>
+          <tr><th scope="row">How it feels</th><td class="them">A number that only grows</td><td class="us">No counts, no streaks, no “overdue”</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 1,000 ================= -->
+<section class="sec" style="padding-top:24px" aria-labelledby="k-h">
+  <div class="wrap">
+    <div class="thousand">
+      <div class="thousand-grid">
+        <div class="rv">
+          <p class="big" aria-hidden="true">1,000</p>
+          <h2 id="k-h">Built for people with 1,000 saved reels.</h2>
+          <p class="lead">We don't have testimonials yet — Thensday is brand new and in beta. What we have is the same problem you do, and an app designed around one rule: it should never make you feel behind.</p>
+          <p class="no-streaks"><b>No streaks. No scores. No “overdue”.</b> Letting go counts as a win.</p>
+        </div>
+        <ul class="honest rv d1">
+          <li><b>Start from today</b><span>Nothing makes you go back through the pile. New saves just work.</span></li>
+          <li><b>Rescue the good ones</b><span>Pick old screenshots and saved videos yourself. They're read in the background, no photo library access.</span></li>
+          <li><b>Ten calm minutes on Sunday</b><span>An optional clear-out: one card at a time, Done, Let go or Not yet.</span></li>
+          <li><b>Old saves fade, gently</b><span>Untouched for 30 days, a save moves to Faded. Bring it back any time; nothing is deleted.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="sec" id="pricing" aria-labelledby="p-h">
+  <div class="wrap">
+    <div class="center">
+      <p class="kicker rv">Pricing</p>
+      <h2 class="h2 rv" id="p-h">Free for everything <span class="serif em">that matters.</span></h2>
+      <p class="lead rv">Unlimited saves and every one-tap action are free, forever. Pro is for the extras.</p>
+    </div>
+    <div class="prices">
+      <div class="price rv">
+        <h3>Thensday</h3>
+        <div class="amount"><b>Free</b></div>
+        <p class="sub">No account, no limit on saves, no ads.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Unlimited saves from any app</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>The full read of reels, links and screenshots</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Every one-tap action: Maps, Calendar, Reminders, Contacts</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Tonight, This weekend, Next shop, Someday</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Grocery list from every recipe you saved</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Widgets, Siri and Shortcuts</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Your first two Sunday clear-outs</li>
+        </ul>
+        <a class="btn btn-ghost" href="mailto:hello@thensday.com?subject=Thensday%20beta">Join the beta</a>
+      </div>
+      <div class="price pro rv d1">
+        <h3>Thensday Pro <em>7-day free trial</em></h3>
+        <div class="amount"><b>$39.99</b><span>/ year</span></div>
+        <p class="sub">That's $3.33 a month. Or $6.99 monthly.<br>The trial comes with the yearly plan.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Everything in Free</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Unlimited Sunday clear-outs</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Custom dates for any save</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Import more than 5 screenshots at once</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Export to CSV</li>
+        </ul>
+        <a class="btn" href="mailto:hello@thensday.com?subject=Thensday%20beta">Join the beta</a>
+      </div>
+    </div>
+    <p class="price-note">Prices in USD; they may vary by country. Subscriptions renew until cancelled in Settings. <a href="/terms.html">Terms</a></p>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="sec" id="faq" style="padding-top:24px" aria-labelledby="f-h">
+  <div class="wrap narrow">
+    <p class="kicker rv">FAQ</p>
+    <h2 class="h2 rv" id="f-h">Good questions.</h2>
+    <div class="faq">
+      <details><summary>Which apps can I share from?</summary><p>Anything with a Share button: Instagram, TikTok, YouTube, X, LinkedIn, Safari, Photos, and so on. Reels, posts, links, screenshots, saved videos and plain text all work.</p></details>
+      <details><summary>How does it read a reel from just a link?</summary><p>Your iPhone opens the public page the way a browser would. If the video is publicly served, Thensday reads it on the device — on-screen text, speech, caption — and then deletes it. If a page is private or behind a login, it keeps the caption and lets you add the video from your saved videos or a screen recording.</p></details>
+      <details><summary>Is anything uploaded?</summary><p>No. There's no account and no Thensday server. Reading and AI happen on your iPhone. The App Store privacy label is “Data Not Collected”. <a href="/privacy.html">Read the privacy policy</a>.</p></details>
+      <details><summary>Which iPhones does it work on?</summary><p>iPhones on iOS 18 or later. On iPhones with Apple Intelligence, Thensday uses Apple's on-device models. Every other iPhone uses a careful built-in rules engine, and every feature still works.</p></details>
+      <details><summary>Will it nag me?</summary><p>No. You get one notification per moment you pick, and none for Someday. There are no streaks, no scores and no counts of unfinished things anywhere in the app.</p></details>
+      <details><summary>What happens to things I never get to?</summary><p>After 30 days untouched, a save quietly moves to Faded. It's never deleted, and you can bring it back with a tap. Letting go is a good outcome, too.</p></details>
+      <details><summary>What does Pro cost?</summary><p>$6.99 a month, or $39.99 a year with a 7-day free trial. Saving, the full read, every action, the four moments and the widget are free with no limit.</p></details>
+      <details><summary>When can I get it?</summary><p>Thensday is in beta on TestFlight now and coming to the App Store soon. <a href="mailto:hello@thensday.com?subject=Thensday%20beta">Email us</a> to join the beta, or <a href="/try.html">try a share</a> if you already have it.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL ================= -->
+<section class="final" aria-labelledby="final-h">
+  <div class="wrap">
+    <img class="rv" src="/icon.svg" alt="Thensday app icon" width="84" height="84">
+    <h2 class="h2 rv" id="final-h">Your feed, <span class="serif em">finally useful.</span></h2>
+    <p class="lead rv">Join the beta and turn the next thing you scroll past into something you actually do.</p>
+    <div class="cta-row rv">
+      <a class="btn" href="mailto:hello@thensday.com?subject=Thensday%20beta">Join the beta <span class="arrow" aria-hidden="true">→</span></a>
+      <a class="btn btn-ghost" href="/try.html">Try a share</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="/"><img src="/icon.svg" alt="" width="30" height="30"><span>Thensday</span></a>
+        <p>Make your doomscroll count. An iPhone app that reads what you save and brings it back at your moment.</p>
+      </div>
+      <div><h4>Product</h4><ul><li><a href="/#how">How it works</a></li><li><a href="/#features">Features</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="/try.html">Try a share</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="/support.html">Support</a></li><li><a href="/privacy.html">Privacy</a></li><li><a href="/terms.html">Terms</a></li><li><a href="mailto:hello@thensday.com">hello@thensday.com</a></li></ul></div>
+    </div>
+    <div class="foot-base"><span>© 2026 ELAQ Limited, Ireland</span><span>Made for iPhone</span></div>
+  </div>
+</footer>
+
+<script src="/site.js?v=4" defer></script>
+</body>
+</html>

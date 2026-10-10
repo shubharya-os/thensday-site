@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Thensday icon">
+  <defs>
+    <linearGradient id="sw-bg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC7246"/>
+      <stop offset="1" stop-color="#CF4F2C"/>
+    </linearGradient>
+    <radialGradient id="sw-glow" cx="380" cy="260" r="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sw-bg)"/>
+  <rect width="1024" height="1024" fill="url(#sw-glow)"/>
+  <g fill="none" stroke="#FBF6EF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 810.8 403.2 A 318 318 0 1 1 615.5 211.3" stroke-width="60"/>
+    <path d="M 377 474 L 500 560 L 773 267" stroke-width="92"/>
+  </g>
+  <circle cx="500" cy="560" r="19" fill="url(#sw-bg)"/>
+</svg>

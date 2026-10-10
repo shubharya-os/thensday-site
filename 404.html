@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- CONTACT_EMAIL = "hello@thensday.com" -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FBF6EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16110E" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="noindex">
+<meta name="description" content="This page faded away.">
+<title>Page not found · Thensday</title>
+<meta property="og:title" content="Page not found · Thensday">
+<meta property="og:description" content="This page faded away.">
+<meta property="og:image" content="https://thensday.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css?v=4">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav scrolled"><div class="wrap nav-in">
+  <a class="brand" href="/" aria-label="Thensday home"><img src="/icon.svg" alt="" width="30" height="30"><span>Thensday</span></a>
+  <nav class="nav-links" aria-label="Primary"><a href="/#how">How it works</a><a href="/#pricing">Pricing</a><a href="/support.html">Support</a></nav>
+  <a class="btn btn-sm" href="mailto:hello@thensday.com?subject=Thensday%20beta">Join the beta</a>
+</div></header>
+<main id="main" class="wrap plan-page">
+  <div class="pv-error" style="margin-top:24px">
+    <p class="big" aria-hidden="true">Not yet.</p>
+    <h1>This page faded away</h1>
+    <p>We couldn't find what you were looking for. Nothing is lost, it just isn't here.</p>
+    <div class="pv-actions"><a class="btn" href="/">Back to Thensday</a><a class="btn btn-ghost" href="/support.html">Support</a></div>
+  </div>
+</main>
+<script>
+// Plan links sent as thensday.com/p#v1… normally redirect to /p/; if a host 404s instead, recover.
+if (/^\/p(\/|$)/.test(location.pathname) && location.hash.indexOf('#v') === 0) location.replace('/p/' + location.hash);
+</script>
+<footer class="foot"><div class="wrap">
+  <div class="foot-base" style="margin-top:0;padding-top:0;border-top:0">
+    <span>&copy; 2026 ELAQ Limited, Ireland · <a href="mailto:hello@thensday.com">hello@thensday.com</a></span>
+    <span><a href="/support.html">Support</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></span>
+  </div>
+</div></footer>
+</body>
+</html>
