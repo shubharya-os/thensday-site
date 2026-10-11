@@ -1,14 +1,14 @@
 <!-- CONTACT_EMAIL = "hello@thensday.com" -->
 # Privacy Policy
 
-Last updated: 10 October 2026
+Last updated: 11 October 2026
 
 Thensday is published by ELAQ Limited ("we"). This policy explains what happens to your information when you use the Thensday app for iPhone, its share extension and its widget.
 
 ## The short version
 
 - There is no account. You never sign up or sign in.
-- There is no Thensday server. Everything you save stays on your iPhone, unless you turn on Ask's optional Apple Private Cloud Compute answers (below).
+- There is no Thensday server. Everything you save stays on your iPhone, unless you turn on Ask's optional Apple Private Cloud Compute answers, or share things with your Household through your own iCloud (both below).
 - We don't use analytics, advertising or tracking tools of any kind.
 - We don't collect, see, sell or share your data, because we never receive it.
 
@@ -23,6 +23,16 @@ All reading of text and screenshots (including text recognition and on-device in
 Videos you share are read on your iPhone and then deleted; we never upload them. When you share or pick a video, Thensday reads its on-screen text and what is said in it (speech recognition runs on your iPhone only), keeps what it found, a small preview and up to four small stills, and deletes the video itself as soon as the read finishes, or after 24 hours if it could not run.
 
 Voice notes you record on your iPhone or Apple Watch, or say to Siri, are turned into text on your iPhone. A recording from your watch travels only to your own paired iPhone, over Apple's connection between the two, and is never uploaded. Thensday keeps a recording, so you can play it back, until you mark that save Done or let it go; turn off Settings › "Keep voice recordings" and it is deleted as soon as its text exists.
+
+Things to remember (such as "Leo's shoe size 32") are saves like any other: kept on your iPhone, found by Ask and by your iPhone's own search (Spotlight), which also runs on your iPhone.
+
+## Sharing with your Household (iCloud)
+
+If you create a Household and invite people, the things you put in it (shared to-dos, who they are for, when they're due, who did them, and the shared shopping list) are stored in your own iCloud account, using Apple's CloudKit sharing, and shared only with the people you invite through Apple's share sheet. Each of them uses their own Apple Account. Nothing is shared unless you create it in the Household or move it there; your other saves stay private on your iPhone. This goes through Apple's iCloud, under Apple's terms, and never through us: we can't see or read any of it. You can stop sharing, or remove someone, at any time, and leaving a Household removes its items from your iPhone.
+
+## At the shop (location)
+
+If you turn on "Remind me when I'm at a grocery store", you pick your usual stores, and your iPhone (not Thensday) watches for arriving at one of them, so it can show your shopping list there. The stores you pick and your location never leave your iPhone; Thensday doesn't record where you've been. Without this permission the list still reminds you at your usual shop time, and the Shortcuts automation still works.
 
 If you delete the app, everything it stored is deleted with it. Your device backups (iCloud or computer) may include the app's data, under Apple's terms and your own backup settings.
 
@@ -39,7 +49,9 @@ Ask Thensday answers on your iPhone. Only if you turn on Settings › "Bigger an
 Thensday asks only when you use a feature that needs it:
 
 - **Notifications**, when you first pick a when, so we can remind you at that moment.
-- **Reminders**, only when you export a list to Reminders.
+- **Reminders**, only when you export a list to Reminders, or choose a shared Reminders list to mirror the Household's shopping list to (so family members without Thensday can use it; that list is shared by Reminders and iCloud, under Apple's terms).
+- **Location**, only if you ask to be reminded when you're at one of your usual stores. It is used on your iPhone only and never sent anywhere.
+- **iCloud**, only when you create or join a Household; it uses the Apple Account already on your iPhone.
 - **Calendar and Contacts** use Apple's own editors, which don't need access to your existing events or contacts.
 - **Photos**: screenshot import and "Add the video" use Apple's photo picker, so the app only sees the images and videos you choose.
 - **Speech recognition**, the first time a video you shared has sound or you record a voice note, so the app can understand what is said. It runs on your iPhone only.
